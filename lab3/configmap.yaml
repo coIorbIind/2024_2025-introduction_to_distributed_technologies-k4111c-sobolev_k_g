@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: react-app-configmap
+  labels:
+    app: react-app
+data:
+  REACT_APP_USERNAME: Sobolev Konstantin
+  REACT_APP_COMPANY_NAME: Yandex
